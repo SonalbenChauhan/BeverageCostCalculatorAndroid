@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tha Beverage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/groupBerverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beverage Type" />
+
+    <RadioGroup
+        android:id="@+id/groupBeverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioCoffee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffee" />
+
+        <RadioButton
+            android:id="@+id/radioTea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tea" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Additional" />
+
+    <CheckBox
+        android:id="@+id/checkSugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sugar" />
+
+    <CheckBox
+        android:id="@+id/checkMilk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milk" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Size" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Flovar" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None" />
+
+        <RadioButton
+            android:id="@+id/radioF1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radioF2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select province" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonExe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute" />
+
+</LinearLayout>
